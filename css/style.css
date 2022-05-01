@@ -1,0 +1,35 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+     box-sizing: border-box;
+   }
+   
+   /******************************************
+   /* LAYOUT
+   /*******************************************/
+   
+   
+   
+   div{
+     height: 200px;
+     width: 200px;
+     background-color: lightblue;
+     border: 1px solid black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   div:hover{
+     background-color: gray;
+   }
+   
+   .row1,
+   .row2,
+   .row3{
+     display: flex;
+     font-size: 5rem;
+   }
